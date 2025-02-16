@@ -54,8 +54,6 @@ body {
   margin-top: 10px;
 }
 
-
-
 .google-logo {
   display: flex;
   flex-direction: column;
@@ -137,12 +135,18 @@ body {
   position: absolute;
   font-size: 12px;
   width: 100px;
-  padding: 6px 8px;
+  padding: 8px 5px;
   margin-top: 10px;
   text-align: center;
   background-color: black;
   color: white;
-  box-shadow: inset 5px 5px white ;
+  box-shadow: inset 2px 2px white;
+  left: -35px;
+  display: none;
+}
+
+.voice:hover .by-voice {
+  display: block;
 }
 
 .camera {
@@ -150,6 +154,10 @@ body {
   right: 20px;
   top: 35px;
 } 
+
+.camera:hover .by-voice {
+  display: block;
+}
 
 .footer {
   font-size: 15px;
