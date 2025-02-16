@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  overflow:hidden;
+}
+.google-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px;
+  gap: 25px;
+}
+
+.google-icons a {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+
+.google-icons a:hover, .google-lang a:hover, .footer  a:hover {
+  text-decoration: underline;
+}
+
+.google-search:hover {
+  cursor: pointer;
+}
+
+.google-filter {
+  transition: background-color 0.1s ease-out;
+}
+
+.google-filter:hover {
+  background-color: #4447462c;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.google-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+}
+
+.google-logo input {
+  padding: 13px;
+  margin-top: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.541);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 0px rgb(241, 238, 238);
+  width: 40vw;
+}
+
+.google-logo input:focus {
+  border: 0;
+}
+
+
+.feeling-lucky {
+  display: flex;
+  padding: 30px;
+
+}
+
+.sub-lucky {
+  font-size: 14px;
+  background-color: #f8f9f4;
+  margin: 11px 4px;
+  padding: 10px 12px;
+  border: 1px solid #f8f9f4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sub-lucky a {
+  text-decoration: none;
+  color: black;
+}
+
+.sub-lucky:hover {
+  border: 1px solid rgba(128, 128, 128, 0.473);
+  border-radius: 5px;
+}
+
+.sub-lucky:active {
+  border: 1px solid rgba(0, 0, 255, 0.479);
+}
+
+.google-lang {
+  font-size: 14px;
+}
+
+.google-lang a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  top: 33px;
+  padding: 10px 16px;
+}
+
+.voice {
+  position: absolute;
+  right: 70px;
+  top: 38px;
+}
+
+.camera {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+} 
+
+.footer {
+  font-size: 15px;
+  background-color: #f8f9f4;
+}
+
+.sub-footer {
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.foot-about {
+  display: flex;
+  gap: 15px;
+}
+
+.footer  a {
+  text-decoration: none;
+  color: black;
+}

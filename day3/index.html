@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Profile Dashboard</title>
+</head>
+<body>
+    <h1>Profile Dashboard</h1>
+    
+    <nav>
+        <a href="#profile">Profile</a> | 
+        <a href="#edit">Edit Profile</a> | 
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <h2 id="profile">User Profile</h2>
+    <table border="1">
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Profile Picture</th>
+        </tr>
+        <tr>
+            <td>Olalekan Adejumo</td>
+            <td>adejumoolalekan16@yahoo.com</td>
+            <td><img src="/olalekan.jpg" alt="Profile Picture" width="100" height="100"></td>
+        </tr>
+    </table>
+    
+    <h2 id="edit">Edit Profile</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="fullName"><br><br>
+        
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+        
+        <label>Profile Picture URL:</label>
+        <input type="text" name="avatarUrl"><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+        
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" name="hobbies" value="Traveling"> Traveling
+        <input type="checkbox" name="hobbies" value="Gaming"> Gaming<br><br>
+        
+        <label>Country:</label>
+        <select name="country">
+            <option value="">Select</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="South-Africa">South-Africa</option>
+        </select><br><br>
+        
+        <label>Bio:</label><br>
+        <textarea name="bio" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Update Profile">
+    </form>
+    
+    <h2 id="contact">Contact Us</h2>
+    <p>If you have any questions, please email us at <a href="mailto:support@example.com">adejumoolalekan16@yahoo.com</a></p>
+</body>
+</html>
